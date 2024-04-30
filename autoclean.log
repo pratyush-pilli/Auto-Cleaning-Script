@@ -1,0 +1,38 @@
+24-04-2024 15:11:52.68 - INFO - Started validation of input parameters...
+24-04-2024 15:11:52.68 - INFO - Completed validation of input parameters
+24-04-2024 15:11:52.68 - INFO - Started handling of duplicates... Method: "AUTO"
+24-04-2024 15:11:52.68 - DEBUG - 0 missing values found
+24-04-2024 15:11:52.68 - INFO - Completed handling of duplicates in 0.001658 seconds
+24-04-2024 15:11:52.68 - INFO - Started handling of missing values...
+24-04-2024 15:11:52.68 - INFO - Found a total of 866 missing value(s)
+24-04-2024 15:11:52.68 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+24-04-2024 15:11:52.70 - DEBUG - LINREG imputation of 177 value(s) succeeded for feature "Age"
+24-04-2024 15:11:52.71 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+24-04-2024 15:11:52.76 - DEBUG - KNN imputation of 687 value(s) succeeded for feature "Cabin"
+24-04-2024 15:11:52.76 - DEBUG - KNN imputation of 2 value(s) succeeded for feature "Embarked"
+24-04-2024 15:11:52.76 - INFO - Completed handling of missing values in 0.081897 seconds
+24-04-2024 15:11:52.76 - INFO - Started handling of outliers... Method: "WINZ"
+24-04-2024 15:11:52.78 - DEBUG - Outlier imputation of 26 value(s) succeeded for feature "Age"
+24-04-2024 15:11:52.81 - DEBUG - Outlier imputation of 46 value(s) succeeded for feature "SibSp"
+24-04-2024 15:11:52.95 - DEBUG - Outlier imputation of 213 value(s) succeeded for feature "Parch"
+24-04-2024 15:11:52.99 - DEBUG - Outlier imputation of 116 value(s) succeeded for feature "Fare"
+24-04-2024 15:11:52.99 - INFO - Completed handling of outliers in 0.237004 seconds
+24-04-2024 15:11:52.99 - INFO - Started conversion of DATETIME features... Granularity: s
+24-04-2024 15:11:52.99 - INFO - Completed conversion of DATETIME features in 0.0017 seconds
+24-04-2024 15:11:52.99 - INFO - Started encoding categorical features... Method: "AUTO"
+24-04-2024 15:11:53.01 - DEBUG - Encoding skipped for feature "Cabin"
+24-04-2024 15:11:53.01 - DEBUG - Encoding skipped for feature "Ticket"
+24-04-2024 15:11:53.01 - DEBUG - Encoding skipped for feature "Name"
+24-04-2024 15:11:53.01 - DEBUG - Encoding to ONEHOT succeeded for feature "Sex"
+24-04-2024 15:11:53.01 - DEBUG - Encoding to ONEHOT succeeded for feature "Embarked"
+24-04-2024 15:11:53.01 - INFO - Completed encoding of categorical features in 0.004298 seconds
+24-04-2024 15:11:53.01 - INFO - Started feature type conversion...
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type INT succeeded for feature "PassengerId"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type INT succeeded for feature "Survived"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type INT succeeded for feature "Pclass"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type FLOAT succeeded for feature "Age"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type INT succeeded for feature "SibSp"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type INT succeeded for feature "Parch"
+24-04-2024 15:11:53.01 - DEBUG - Conversion to type FLOAT succeeded for feature "Fare"
+24-04-2024 15:11:53.01 - INFO - Completed feature type conversion for 7 feature(s) in 0.005291 seconds
+24-04-2024 15:11:53.01 - INFO - AutoClean process completed in 0.335706 seconds
